@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 0.625rem;
+}
+
+.scrollableTable {
+	height: 400px;
+	overflow: auto;
+}
+
+.buttonContainer {
+	margin-bottom: 10px;
+}
+
+.deleteButton {
+	margin: 0.625rem 0 0 0.625rem;
+	background-color: #ff4d4f;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 4px;
+}
+
+.deleteButton:hover {
+	background-color: #d9363e;
+}
