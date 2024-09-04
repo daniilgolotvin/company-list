@@ -1,4 +1,3 @@
-/* Общие стили таблицы */
 table {
 	width: 100%;
 	border-collapse: collapse;
@@ -7,7 +6,6 @@ table {
 	margin-top: 20px;
 }
 
-/* Стили для заголовков таблицы */
 th {
 	background-color: #007bff;
 	color: white;
@@ -17,7 +15,6 @@ th {
 	text-transform: uppercase;
 }
 
-/* Стили для ячеек таблицы */
 td {
 	padding: 10px 14px;
 	border: 1px solid #ddd;
@@ -25,17 +22,14 @@ td {
 	color: #333;
 }
 
-/* Эффект наведения на строку */
 tr:hover {
 	background-color: #e0f7fa;
 }
 
-/* Стили для строк, чередование цветов для четных строк */
 tr:nth-child(even) {
 	background-color: #f2f2f2;
 }
 
-/* Стили для полей ввода */
 input[type='text'] {
 	width: 100%;
 	padding: 8px;
@@ -46,18 +40,15 @@ input[type='text'] {
 	font-size: 14px;
 }
 
-/* Стили для чекбоксов */
 input[type='checkbox'] {
 	transform: scale(1.2);
 	cursor: pointer;
 }
 
-/* Стили для выделенных строк */
 tr.selected {
 	background-color: #d1ecf1;
 }
 
-/* Дополнительные стили для улучшения внешнего вида */
 .table-container {
 	margin-bottom: 20px;
 	overflow-x: auto;
